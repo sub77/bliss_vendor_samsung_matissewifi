@@ -304,7 +304,6 @@ PRODUCT_COPY_FILES += \
 
 # Radio Dual-Sim
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/bin/ATFWD-daemon:system/blobs/s3ve3gds/bin/ATFWD-daemon \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/bin/ds_fmc_appd:system/blobs/s3ve3gds/bin/ds_fmc_appd \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/bin/qmuxd:system/blobs/s3ve3gds/bin/qmuxd \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/bin/radish:system/blobs/s3ve3gds/bin/radish \
@@ -325,7 +324,6 @@ PRODUCT_COPY_FILES += \
 
 # Radio Single-sim
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/blobs/s3ve3g/bin/ATFWD-daemon:system/blobs/s3ve3g/bin/ATFWD-daemon \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/bin/ds_fmc_appd:system/blobs/s3ve3g/bin/ds_fmc_appd \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/bin/qmuxd:system/blobs/s3ve3g/bin/qmuxd \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/bin/radish:system/blobs/s3ve3g/bin/radish \
