@@ -164,14 +164,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
-
-# Fastcharge
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/bin/hvdcp:system/bin/hvdcp
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -230,13 +225,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/firmware/keymaster/keymaster.b02:system/blobs/s3ve3g/vendor/firmware/keymaster/keymaster.b02 \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/firmware/keymaster/keymaster.b03:system/blobs/s3ve3g/vendor/firmware/keymaster/keymaster.b03 \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3g/vendor/firmware/keymaster/keymaster.mdt:system/blobs/s3ve3g/vendor/firmware/keymaster/keymaster.mdt
-
-# Listen service
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -354,6 +342,7 @@ PRODUCT_COPY_FILES += \
 # Time services
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
 
 # Wifi
