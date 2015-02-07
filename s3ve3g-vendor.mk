@@ -21,3 +21,6 @@ PRODUCT_PACKAGES += \
     TimeService
 
 $(call inherit-product, vendor/samsung/s3ve3g/s3ve3g-vendor-blobs.mk)
+
+# Dual-sim support
+$(call inherit-product, vendor/samsung/s3ve3g/s3ve3gds-vendor-blobs.mk)
