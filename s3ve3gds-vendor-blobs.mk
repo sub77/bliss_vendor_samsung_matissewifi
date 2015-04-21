@@ -16,6 +16,7 @@
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libdiag.so:system/blobs/s3ve3gds/vendor/lib/libdiag.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libdsutils.so:system/blobs/s3ve3gds/vendor/lib/libdsutils.so \
+    $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libdsucsd.so:system/blobs/s3ve3gds/vendor/lib/libdsucsd.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libidl.so:system/blobs/s3ve3gds/vendor/lib/libidl.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libqcci_legacy.so:system/blobs/s3ve3gds/vendor/lib/libqcci_legacy.so \
     $(LOCAL_PATH)/proprietary/blobs/s3ve3gds/vendor/lib/libqmi.so:system/blobs/s3ve3gds/vendor/lib/libqmi.so \
