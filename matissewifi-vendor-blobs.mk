@@ -215,6 +215,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw 
 
+# Media firmware
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    $(LOCAL_PATH)/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd 
+
 # IPC router security
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
