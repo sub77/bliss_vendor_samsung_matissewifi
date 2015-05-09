@@ -466,7 +466,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/lib/libAfSingle.so:system/lib/libAfSingle.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
-    vendor/samsung/matissewifi/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/samsung/matissewifi/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/matissewifi/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
