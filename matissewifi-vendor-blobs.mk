@@ -301,5 +301,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
     vendor/samsung/matissewifi/proprietary/lib/drm/libplayreadyplugin.so:system/lib/drm/libplayreadyplugin.so \
     vendor/samsung/matissewifi/proprietary/lib/drm/libprgenericplugin.so:system/lib/drm/libprgenericplugin.so \
-    vendor/samsung/matissewifi/proprietary/lib/hw/camera.msm8226.so:lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.msm8226.so:lib/hw/camera.vendor.msm8226.so \
+    vendor/samsung/matissewifi/proprietary/lib/hw/camera.msm8226.so:lib/hw/camera.vendor.msm8226.so \
     vendor/samsung/matissewifi/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so
