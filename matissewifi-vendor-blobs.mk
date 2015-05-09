@@ -100,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matissewifi/proprietary/etc/B08QT_imx175_module_info.xml:system/etc/B08QT_imx175_module_info.xml \
     vendor/samsung/matissewifi/proprietary/etc/E08QL_s5k4h5yb_module_info.xml:system/etc/E08QL_s5k4h5yb_module_info.xml \
     vendor/samsung/matissewifi/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/matissewifi/proprietary/lib/hw/camera.msm8226.so:lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.msm8226.so:lib/hw/camera.vendor.msm8226.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libchromatix_imx175_common.so:system/vendor/lib/libchromatix_imx175_common.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libchromatix_imx175_preview.so:system/vendor/lib/libchromatix_imx175_preview.so \
     vendor/samsung/matissewifi/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
