@@ -123,6 +123,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/B08QT_libchromatix_imx175_video_hd.so:system/vendor/lib/B08QT_libchromatix_imx175_video_hd.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/B08QT_libchromatix_imx175_zsl.so:system/vendor/lib/B08QT_libchromatix_imx175_zsl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/B08QT_libchromatix_imx175_zslshot.so:system/vendor/lib/B08QT_libchromatix_imx175_zslshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_common.so:/vendor/lib/C08QT_libchromatix_imx175_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_common_res0.so:/vendor/lib/C08QT_libchromatix_imx175_common_res0.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_common_res1.so:/vendor/lib/C08QT_libchromatix_imx175_common_res1.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_default_video.so:/vendor/lib/C08QT_libchromatix_imx175_ \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_liveshot.so:/vendor/lib/C08QT_libchromatix_imx175_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_preview.so:/vendor/lib/C08QT_libchromatix_imx175_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_snapshot.so:/vendor/lib/C08QT_libchromatix_imx175_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_video_hd.so:/vendor/lib/C08QT_libchromatix_imx175_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_zsl.so:/vendor/lib/C08QT_libchromatix_imx175_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_zslshot.so:/vendor/lib/C08QT_libchromatix_imx175_slshot.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_common.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_common.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res0.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res0.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res1.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res1.so \
