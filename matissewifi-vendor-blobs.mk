@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
     $(LOCAL_PATH)/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     $(LOCAL_PATH)/proprietary/lib/libarcsoft_skin_soften.so:system/lib/libarcsoft_skin_soften.so \
-    $(LOCAL_PATH)/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_cac.so:system/lib/libmmcamera_cac.so \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
     $(LOCAL_PATH)/proprietary/lib/libmmcamera_fidelix_eeprom.so:system/lib/libmmcamera_fidelix_eeprom.so \
@@ -99,19 +98,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_imx135.so:/vendor/lib/libmmcamera_imx135.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_imx219.so:/vendor/lib/libmmcamera_imx219.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so:/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k3h5xa.so:/vendor/lib/libmmcamera_s5k3h5xa.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k4ecgx.so:/vendor/lib/libmmcamera_s5k4ecgx.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k4h5ya.so:/vendor/lib/libmmcamera_s5k4h5ya.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:/vendor/lib/libmmcamera_s5k5e3yx.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k6b2yx.so:/vendor/lib/libmmcamera_s5k6b2yx.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k8b1yx.so:/vendor/lib/libmmcamera_s5k8b1yx.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sr030pc50.so:/vendor/lib/libmmcamera_sr030pc50.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sr130pc20.so:/vendor/lib/libmmcamera_sr130pc20.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sr200pc20.so:/vendor/lib/libmmcamera_sr200pc20.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sr352.so:/vendor/lib/libmmcamera_sr352.so 
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_imx219.so:system/vendor/lib/libmmcamera_imx219.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so:system/vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k3h5xa.so:system/vendor/lib/libmmcamera_s5k3h5xa.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k4ecgx.so:system/vendor/lib/libmmcamera_s5k4ecgx.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k4h5ya.so:system/vendor/lib/libmmcamera_s5k4h5ya.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k5e3yx.so:system/vendor/lib/libmmcamera_s5k5e3yx.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k6b2yx.so:system/vendor/lib/libmmcamera_s5k6b2yx.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_s5k8b1yx.so:system/vendor/lib/libmmcamera_s5k8b1yx.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sr030pc50.so:system/vendor/lib/libmmcamera_sr030pc50.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sr130pc20.so:system/vendor/lib/libmmcamera_sr130pc20.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sr200pc20.so:system/vendor/lib/libmmcamera_sr200pc20.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmcamera_sr352.so:system/vendor/lib/libmmcamera_sr352.so 
 
 
 # Camera chromatix
@@ -139,16 +138,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/B08QT_libchromatix_imx175_video_hd.so:system/vendor/lib/B08QT_libchromatix_imx175_video_hd.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/B08QT_libchromatix_imx175_zsl.so:system/vendor/lib/B08QT_libchromatix_imx175_zsl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/B08QT_libchromatix_imx175_zslshot.so:system/vendor/lib/B08QT_libchromatix_imx175_zslshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_common.so:/vendor/lib/C08QT_libchromatix_imx175_common.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_common_res0.so:/vendor/lib/C08QT_libchromatix_imx175_common_res0.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_common_res1.so:/vendor/lib/C08QT_libchromatix_imx175_common_res1.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_default_video.so:/vendor/lib/C08QT_libchromatix_imx175_ \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_liveshot.so:/vendor/lib/C08QT_libchromatix_imx175_liveshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_preview.so:/vendor/lib/C08QT_libchromatix_imx175_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_snapshot.so:/vendor/lib/C08QT_libchromatix_imx175_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_video_hd.so:/vendor/lib/C08QT_libchromatix_imx175_video_hd.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_zsl.so:/vendor/lib/C08QT_libchromatix_imx175_zsl.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_zslshot.so:/vendor/lib/C08QT_libchromatix_imx175_slshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_common.so:system/vendor/lib/C08QT_libchromatix_imx175_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_common_res0.so:system/vendor/lib/C08QT_libchromatix_imx175_common_res0.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_common_res1.so:system/vendor/lib/C08QT_libchromatix_imx175_common_res1.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_default_video.so:system/vendor/lib/C08QT_libchromatix_imx175_ \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_liveshot.so:system/vendor/lib/C08QT_libchromatix_imx175_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_preview.so:system/vendor/lib/C08QT_libchromatix_imx175_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_snapshot.so:system/vendor/lib/C08QT_libchromatix_imx175_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_video_hd.so:system/vendor/lib/C08QT_libchromatix_imx175_video_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_zsl.so:system/vendor/lib/C08QT_libchromatix_imx175_zsl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/C08QT_libchromatix_imx175_zslshot.so:system/vendor/lib/C08QT_libchromatix_imx175_slshot.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_common.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_common.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res0.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res0.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res1.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_common_res1.so \
@@ -160,28 +159,28 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_video_hd.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_video_hd.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_zsl.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_zsl.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/E08QL_libchromatix_s5k4h5yb_zslshot.so:system/vendor/lib/E08QL_libchromatix_s5k4h5yb_zslshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_common.so:/vendor/lib/libchromatix_imx219_common.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_common_res0.so:/vendor/lib/libchromatix_imx219_common_res0.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_default_video.so:/vendor/lib/libchromatix_imx219_default_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_liveshot.so:/vendor/lib/libchromatix_imx219_liveshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_panorama.so:/vendor/lib/libchromatix_imx219_panorama.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_preview.so:/vendor/lib/libchromatix_imx219_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:/vendor/lib/libchromatix_imx219_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_zslshot.so:/vendor/lib/libchromatix_imx219_zslshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_common.so:/vendor/lib/libchromatix_s5k5e3yx_common.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview.so:/vendor/lib/libchromatix_s5k5e3yx_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_snapshot.so:/vendor/lib/libchromatix_s5k5e3yx_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_video.so:/vendor/lib/libchromatix_s5k5e3yx_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_zslshot.so:/vendor/lib/libchromatix_s5k5e3yx_zslshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_common.so:/vendor/lib/libchromatix_s5k8b1yx_common.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_pip.so:/vendor/lib/libchromatix_s5k8b1yx_pip.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_preview.so:/vendor/lib/libchromatix_s5k8b1yx_preview.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_smart_stay.so:/vendor/lib/libchromatix_s5k8b1yx_smart_stay.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_snapshot.so:/vendor/lib/libchromatix_s5k8b1yx_snapshot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_video.so:/vendor/lib/libchromatix_s5k8b1yx_video.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_vt.so:/vendor/lib/libchromatix_s5k8b1yx_vt.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_vt_hd.so:/vendor/lib/libchromatix_s5k8b1yx_vt_hd.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_zslshot.so:/vendor/lib/libchromatix_s5k8b1yx_zslshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_common_res0.so:system/vendor/lib/libchromatix_imx219_common_res0.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_default_video.so:system/vendor/lib/libchromatix_imx219_default_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_liveshot.so:system/vendor/lib/libchromatix_imx219_liveshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_panorama.so:system/vendor/lib/libchromatix_imx219_panorama.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_preview.so:system/vendor/lib/libchromatix_imx219_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_snapshot.so:system/vendor/lib/libchromatix_imx219_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx219_zslshot.so:system/vendor/lib/libchromatix_imx219_zslshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_common.so:system/vendor/lib/libchromatix_s5k5e3yx_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_preview.so:system/vendor/lib/libchromatix_s5k5e3yx_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_snapshot.so:system/vendor/lib/libchromatix_s5k5e3yx_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_video.so:system/vendor/lib/libchromatix_s5k5e3yx_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k5e3yx_zslshot.so:system/vendor/lib/libchromatix_s5k5e3yx_zslshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_common.so:system/vendor/lib/libchromatix_s5k8b1yx_common.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_pip.so:system/vendor/lib/libchromatix_s5k8b1yx_pip.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_preview.so:system/vendor/lib/libchromatix_s5k8b1yx_preview.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_smart_stay.so:system/vendor/lib/libchromatix_s5k8b1yx_smart_stay.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_snapshot.so:system/vendor/lib/libchromatix_s5k8b1yx_snapshot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_video.so:system/vendor/lib/libchromatix_s5k8b1yx_video.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_vt.so:system/vendor/lib/libchromatix_s5k8b1yx_vt.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_vt_hd.so:system/vendor/lib/libchromatix_s5k8b1yx_vt_hd.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k8b1yx_zslshot.so:system/vendor/lib/libchromatix_s5k8b1yx_zslshot.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx175_common.so:system/vendor/lib/libchromatix_imx175_common.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx175_preview.so:system/vendor/lib/libchromatix_imx175_preview.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_s5k6a3yx_common.so:system/vendor/lib/libchromatix_s5k6a3yx_common.so \
@@ -377,6 +376,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
     $(LOCAL_PATH)/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
 
-# Wifi
-#PRODUCT_COPY_FILES += \
+# BUILDFROMSOURCE
 #    $(LOCAL_PATH)/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so
+# ERROR
+#    $(LOCAL_PATH)/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
