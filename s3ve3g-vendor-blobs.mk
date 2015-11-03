@@ -209,7 +209,7 @@ PRODUCT_COPY_FILES += \
 # IPC router security
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/irsc_util:system/bin/irsc_util \
-    $(LOCAL_PATH)/proprietary/etc/sec_config:system/bin/sec_config
+    $(LOCAL_PATH)/proprietary/etc/sec_config:system/etc/sec_config
 
 # Media
 PRODUCT_COPY_FILES += \
